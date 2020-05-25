@@ -5,9 +5,10 @@ import SearchBox from './components/SearchBox';
 
 class App extends Component {
   render() {
+    const isFocused = true;
     return (
       <div className="App">
-        <SearchBox/>  
+        <SearchBox IsFocused={isFocused}/>  
       </div>
     );
   }
