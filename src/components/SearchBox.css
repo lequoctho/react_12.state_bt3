@@ -1,3 +1,20 @@
-input {
-  wight: 20px;
+.SearchBox {
+  position: relative;
 }
+
+input {
+  height: 35px;
+  width: 250px;
+}
+
+img::first-line {
+  top: 2px;
+  position: absolute;
+  left: 318px;
+}
+
+/* img {
+  top: 2px;
+  position: absolute;
+  left: 318px;
+} */
