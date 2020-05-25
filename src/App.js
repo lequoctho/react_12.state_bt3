@@ -4,11 +4,17 @@ import './App.css';
 import SearchBox from './components/SearchBox';
 
 class App extends Component {
+  contructor() {
+    //super();
+    this.state = {
+      isFocused: true
+    }
+  }
   render() {
-    const isFocused = true;
+    const {isFocused} = this.state;
     return (
       <div className="App">
-        <SearchBox IsFocused={isFocused}/>  
+        <SearchBox isFocused={isFocused}/>  
       </div>
     );
   }
