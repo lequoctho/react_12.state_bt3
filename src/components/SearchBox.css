@@ -7,14 +7,18 @@ input {
   width: 250px;
 }
 
-img::first-line {
+img:last-child {
+  top: 4px;
+  position: absolute;
+  left: 322px;
+}
+
+img {
   top: 2px;
   position: absolute;
   left: 318px;
 }
 
-/* img {
-  top: 2px;
-  position: absolute;
-  left: 318px;
-} */
+img.hide {
+  opacity: 0;
+}
